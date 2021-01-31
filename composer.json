@@ -16,7 +16,8 @@
         "php": ">=7.0",
         "psr/cache": "~1.0",
         "symfony/config": "~3.0|^4.0",
-        "symfony/yaml" : "~3.0|^4.0"
+	  	"symfony/yaml" : "5.*",
+        "friendsofphp/php-cs-fixer": "^2.12"
     },
     "support": {
         "email": "kern046@gmail.com"
@@ -29,7 +30,6 @@
         }
     },
     "require-dev": {
-        "friendsofphp/php-cs-fixer": "^2.12",
         "phpunit/phpunit": "^6.5"
     }
 }
